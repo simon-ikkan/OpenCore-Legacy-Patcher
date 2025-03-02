@@ -275,7 +275,7 @@ class BuildFirmware:
         # Otherwise some graphics hardware will fail to wake, macOS will misreport hardware as ExpressCard-based,
         # prevents MacPro6,1 from both booting unaccelerated and breaks low power states.
         if (
-            self.model in ["MacPro6,1", "MacBookPro4,1"] or
+            self.model in ["MacPro6,1", "MacBookPro4,1", "MacBook4,1"] or
             (
                 smbios_data.smbios_dictionary[self.model]["CPU Generation"] < cpu_data.CPUGen.sandy_bridge.value and \
                 not self.model.startswith("MacBook")

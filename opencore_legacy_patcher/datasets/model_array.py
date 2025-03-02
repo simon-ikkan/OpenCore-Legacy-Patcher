@@ -288,13 +288,8 @@ AGDPSupport = [
     # "MacPro6,1",
 ]
 
-Missing_USB_Map_Legacy = [
-    # These machines were dropped before El Capitan, and as such, no proper USB maps exist for them.
-    # Instead, inject a custom USB map that forces all ports on the controller to be enabled.
-    "MacBook4,1"
-]
-
 Missing_USB_Map = [
+    "MacBook4,1",
     "MacBook5,1",
     "MacBook5,2",
     "MacBook6,1",
