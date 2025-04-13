@@ -16,6 +16,7 @@
 * [What are FeatureUnlock and mediaanalysisd?](#what-are-featureunlock-and-mediaanalysisd)
 * [Why isn't iPhone Mirroring working?](#why-isn-t-iphone-mirroring-working)
 * [Where is Apple Intelligence?](#where-is-apple-intelligence)
+* [Error during install "An error occured preparing the software update"](#error-during-install-an-error-occured-preparing-the-software-update)
 
 
 
@@ -192,4 +193,12 @@ iPhone Mirroring requires a T2 chip, which means it will not be available on OCL
 ## Where is Apple Intelligence?
 
 Apple Intelligence requires Neural Engine, which is only found in Apple Silicon chips.
+
+## Error during install "An error occured preparing the software update"
+
+![FeatureUnlock](./images/faq-update-disk-error.JPEG) 
+
+This error is most probably an hardware issue. You can try in order :
+- If you added RAM : to keep only one stick during the install and to put it back in once the update will have succeedeed
+- You can force an nvram reset via the "Option-Command-P-R" Key combinations at boot after the chime
 
